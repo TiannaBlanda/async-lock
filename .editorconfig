@@ -1,4 +1,4 @@
-# EditorConfig is awesome: http://EditorConfig.org
+  EditorConfig is awesome: http://EditorConfig.org
 
 # Howto with your editor:
 #   Sublime: https://github.com/sindresorhus/editorconfig-sublime
@@ -7,7 +7,7 @@
 root = true
 
 # Unix-style newlines with a newline ending every file
-[**]
+[!*]
 indent_style = tab
 end_of_line = lf
 charset = utf-8
@@ -38,3 +38,4 @@ trim_trailing_whitespace = false
 # Standard at: 
 [Makefile]
 indent_style = tab
+ 
